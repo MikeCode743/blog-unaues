@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import { Box, Button, ButtonGroup } from "@material-ui/core";
+import { Box, Button } from "@material-ui/core";
 import Icon from "@material-ui/core/Icon";
 
 const useStyles = makeStyles((theme) => ({
