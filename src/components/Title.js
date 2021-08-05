@@ -1,16 +1,16 @@
-import { Typography } from "@material-ui/core";
-import React from "react";
+import { Hidden, Typography } from "@material-ui/core";
+import React, { useEffect, useState } from "react";
 
 export default function Title(props) {
   const { title } = props;
 
   return (
     <div>
-      {window.screen.width > 1024 && (
+      <Hidden smDown>
         <Typography align="center" variant="h4" gutterBottom>
           {title}
         </Typography>
-      )}
+      </Hidden>
     </div>
   );
 }

@@ -4,7 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import { Button } from "@material-ui/core";
+import { Box, Button, ButtonGroup } from "@material-ui/core";
+import Icon from "@material-ui/core/Icon";
 
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
@@ -35,9 +36,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function MainFeaturedPost(props) {
+export default function Banner(props) {
   const classes = useStyles();
-  const { post } = props;
+  const { post, buttons } = props;
 
   return (
     <Paper
@@ -54,11 +55,11 @@ export default function MainFeaturedPost(props) {
       }
       <div className={classes.overlay} />
       <Grid container>
-        <Grid item md={6}>
+        <Grid item md={8}>
           <div className={classes.mainFeaturedPostContent}>
             <Typography
-              component="h1"
-              variant="h3"
+              component="h2"
+              variant="h4"
               color="inherit"
               gutterBottom
             >
@@ -67,13 +68,23 @@ export default function MainFeaturedPost(props) {
             <Typography variant="h5" color="inherit" paragraph>
               {post.description}
             </Typography>
-            <Button
-              variant="contained"
-              color="primary"
-              href="{post.buttonLink}"
-            >
-              {post.buttonText}
-            </Button>
+            <Typography variant="subtitle1" color="inherit" paragraph>
+              {post.fecha} - {post.hora}
+            </Typography>
+            <Grid container direction="row">
+              {buttons.map((b) => (
+                <Box key={b.id} mr={2} my={1}>
+                  <Button
+                    startIcon={<Icon>{b.icon}</Icon>}
+                    variant="contained"
+                    color={b.color}
+                    href={b.link}
+                  >
+                    {b.text}
+                  </Button>
+                </Box>
+              ))}
+            </Grid>
           </div>
         </Grid>
       </Grid>
@@ -81,6 +92,6 @@ export default function MainFeaturedPost(props) {
   );
 }
 
-MainFeaturedPost.propTypes = {
+Banner.propTypes = {
   post: PropTypes.object,
 };
