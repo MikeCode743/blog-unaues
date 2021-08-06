@@ -40,20 +40,22 @@ export default function FeaturedPost(props) {
             </Typography>
           </CardContent>
           {post.buttons && (
-            <CardActions>
-              {post.buttons.map((b) => (
-                <Button
-                  key={b.text}
-                  size="small"
-                  variant="contained"
-                  href={b.link}
-                  color={b.color}
-                  startIcon={<Icon>{b.icon}</Icon>}
-                >
-                  {b.text}
-                </Button>
-              ))}
-            </CardActions>
+            <Grid container direction="row" justifyContent="flex-end">
+              <CardActions>
+                {post.buttons.map((b) => (
+                  <Button
+                    key={b.text}
+                    size="small"
+                    variant="contained"
+                    href={b.link}
+                    color={b.color}
+                    startIcon={<Icon>{b.icon}</Icon>}
+                  >
+                    {b.text}
+                  </Button>
+                ))}
+              </CardActions>
+            </Grid>
           )}
         </div>
         <Hidden smDown>
