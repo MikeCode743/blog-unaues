@@ -13,7 +13,7 @@ import Card from "../components/Card";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
 
-import { nameTitle } from "../data/title";
+import { nameTitle, subTitle } from "../data/title";
 import { bannerText, bannerButtons } from "../data/banner";
 import { events } from "../data/events";
 
@@ -41,7 +41,7 @@ export default function Home() {
         </Toolbar>
       </AppBar>
       <Container style={{ padding: 20 }}>
-        <Title title={nameTitle} />
+        <Title title={nameTitle} subTitle={subTitle} />
         <ThemeProvider theme={theme}>
           <Grid container>
             <Grid item xs>
