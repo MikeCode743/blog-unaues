@@ -7,7 +7,12 @@ export default function Title(props) {
   return (
     <div>
       <Hidden smDown>
-        <Typography align="center" variant="h4" gutterBottom>
+        <Typography
+          color="textPrimary"
+          align="center"
+          variant="h4"
+          gutterBottom
+        >
           {title}
         </Typography>
       </Hidden>

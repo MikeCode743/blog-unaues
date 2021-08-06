@@ -11,6 +11,7 @@ import React from "react";
 import Banner from "../components/Banner";
 import Card from "../components/Card";
 import Title from "../components/Title";
+import Footer from "../components/Footer";
 
 import { ThemeProvider } from "@material-ui/styles";
 import { createTheme } from "@material-ui/core/styles";
@@ -114,6 +115,7 @@ export default function Home() {
               <Card key={post.title} post={post} />
             ))}
           </Grid>
+          <Footer />
         </ThemeProvider>
       </Container>
     </div>
