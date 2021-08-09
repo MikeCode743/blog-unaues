@@ -31,12 +31,15 @@ export default function Home() {
         // main: '#1b5e20',
       },
     },
+    logo: {
+      maxWidth: 160,
+    },
   });
 
   return (
     <div>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar style={{ background: "#63A64D" }}>
           <Typography variant="h6">UNAUES</Typography>
         </Toolbar>
       </AppBar>

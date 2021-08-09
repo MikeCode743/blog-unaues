@@ -12,16 +12,18 @@ export const bannerButtons = [
   {
     id: 1, // Enlace de Teams
     text: "Reunirse Ahora",
-    link: "https://www.google.com",
+    link: "https://teams.microsoft.com/l/meetup-join/19%3aIrKy91XifR7bTJ8iicBDMBal2uNRFCROF3YLHqrOTGA1%40thread.tacv2/1627329950679?context=%7b%22Tid%22%3a%2288a68981-9703-4695-8414-38d411c54732%22%2c%22Oid%22%3a%22635e5e6a-798f-4f6f-b43a-af1c91eb96a3%22%7d",
     color: "primary",
     icon: "groups",
+    disable: false,
   },
   {
     id: 2, //Formulario de asistencia
     text: "Asistencia",
-    link: "#",
+    link: "https://forms.gle/qSUZRDCBUNJUNa3p7",
     color: "secondary",
     icon: "how_to_reg",
+    disable: false,
   },
   {
     id: 3, //Formulario para entregas de tareas
@@ -29,5 +31,6 @@ export const bannerButtons = [
     link: "#",
     color: "default",
     icon: "task",
+    disabled: true,
   },
 ];

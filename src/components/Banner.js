@@ -79,6 +79,7 @@ export default function Banner(props) {
                     variant="contained"
                     color={b.color}
                     href={b.link}
+                    disabled={b.disabled}
                   >
                     {b.text}
                   </Button>

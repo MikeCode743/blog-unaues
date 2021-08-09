@@ -11,16 +11,16 @@ export const events = [
         text: "Registrarse",
         color: "secondary",
         icon: "person_add_alt_1",
-        link: "#",
+        link: "https://forms.gle/WczrmdCth2E9hhf79",
       },
     ],
   },
-  {
-    title: "Post title",
-    date: "Nov 11",
-    description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content.",
-    image: "https://source.unsplash.com/random",
-    imageText: "Image Text",
-  },
+  // {
+  //   title: "Post title",
+  //   date: "Nov 11",
+  //   description:
+  //     "This is a wider card with supporting text below as a natural lead-in to additional content.",
+  //   image: "https://source.unsplash.com/random",
+  //   imageText: "Image Text",
+  // },
 ];
