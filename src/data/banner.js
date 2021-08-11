@@ -15,7 +15,7 @@ export const bannerButtons = [
     link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTkzN2JjN2YtZjdiNi00MWM1LWEzMDUtMTI2MmI2YmYyODky%40thread.v2/0?context=%7b%22Tid%22%3a%2288a68981-9703-4695-8414-38d411c54732%22%2c%22Oid%22%3a%22635e5e6a-798f-4f6f-b43a-af1c91eb96a3%22%7d",
     color: "primary",
     icon: "groups",
-    disable: false,
+    disabled: false,
   },
   {
     id: 2, //Formulario de asistencia
@@ -23,7 +23,7 @@ export const bannerButtons = [
     link: "https://forms.gle/eaJQZ62eoKrtJUKSA",
     color: "secondary",
     icon: "how_to_reg",
-    disable: true,
+    disabled: true,
   },
   {
     id: 3, //Formulario para entregas de tareas
