@@ -1,4 +1,4 @@
 export const nameTitle =
-  "Fortalecimiento de las capacidades de la juventud en reducción del riesgo de desastres y adaptación a cambios al cambios climático con énfasis en inclusión social";
+  "FORTALECIMIENTO DE LAS CAPACIDADES DE LA JUVENTUD EN REDUCCIÓN DEL RIESGO DE DESASTRES Y ADAPTACIÓN A CAMBIOS AL CAMBIOS CLIMÁTICO CON ÉNFASIS EN INCLUSIÓN SOCIAL";
 
 export const subTitle = "AUSPICIADO POR UNESCO";
