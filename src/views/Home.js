@@ -1,11 +1,4 @@
-import {
-  AppBar,
-  Container,
-  Grid,
-  Paper,
-  Toolbar,
-  Typography,
-} from "@material-ui/core";
+import { Container, Grid, Paper } from "@material-ui/core";
 import React from "react";
 
 import Banner from "../components/Banner";
@@ -19,6 +12,7 @@ import { events } from "../data/events";
 
 import { ThemeProvider } from "@material-ui/styles";
 import { createTheme } from "@material-ui/core/styles";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   const theme = createTheme({
@@ -38,11 +32,7 @@ export default function Home() {
 
   return (
     <div>
-      <AppBar position="static">
-        <Toolbar style={{ background: "#63A64D" }}>
-          <Typography variant="h6">UNAUES</Typography>
-        </Toolbar>
-      </AppBar>
+      <Navbar />
       <Container style={{ padding: 20 }}>
         <Title title={nameTitle} subTitle={subTitle} />
         <ThemeProvider theme={theme}>

@@ -10,18 +10,18 @@ export default function Title(props) {
         <Typography
           color="textPrimary"
           align="center"
-          variant="h5"
+          variant="h6"
           gutterBottom
         >
           {title}
-          <Typography
-            color="textSecondary"
-            align="center"
-            variant="subtitle1"
-            gutterBottom
-          >
-            {subTitle}
-          </Typography>
+        </Typography>
+        <Typography
+          color="textSecondary"
+          align="center"
+          variant="subtitle1"
+          gutterBottom
+        >
+          {subTitle}
         </Typography>
       </Hidden>
     </div>

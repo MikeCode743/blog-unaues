@@ -16,11 +16,19 @@ export const events = [
     ],
   },
   // {
-  //   title: "Post title",
-  //   date: "Nov 11",
+  //   title: "Presentacion",
+  //   date: "12 de agosto",
   //   description:
-  //     "This is a wider card with supporting text below as a natural lead-in to additional content.",
+  //     "Occaecat adipisicing dolor ut sint quis occaecat magna elit nisi qui ex cillum sit sunt.",
   //   image: "https://source.unsplash.com/random",
   //   imageText: "Image Text",
+  //   buttons: [
+  //     {
+  //       text: "Carpeta",
+  //       color: "secondary",
+  //       icon: "person_add_alt_1",
+  //       link: "https://forms.gle/WczrmdCth2E9hhf79",
+  //     },
+  //   ],
   // },
 ];

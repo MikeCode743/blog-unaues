@@ -73,7 +73,7 @@ export default function Banner(props) {
             </Typography>
             <Grid container direction="row">
               {buttons.map((b) => (
-                <Box key={b.id} mr={2} my={1}>
+                <Box key={b.text} mr={2} my={1}>
                   <Button
                     startIcon={<Icon>{b.icon}</Icon>}
                     variant="contained"
