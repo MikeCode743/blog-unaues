@@ -12,7 +12,7 @@ export const data = {
       text: "Listado Oficial",
       color: "inherit",
       icon: "checklist_rtl",
-      link: "",
+      link: "/listadooficial",
     },
     {
       text: "Registrarse",
