@@ -23,7 +23,7 @@ export const bannerButtons = [
     link: "https://forms.gle/eaJQZ62eoKrtJUKSA",
     color: "secondary",
     icon: "how_to_reg",
-    disabled: true,
+    disabled: false,
   },
   {
     id: 3, //Formulario para entregas de tareas
@@ -31,6 +31,6 @@ export const bannerButtons = [
     link: "https://forms.gle/dtiNjbjEW9RJh6aV7",
     color: "default",
     icon: "task",
-    disabled: true,
+    disabled: false,
   },
 ];
