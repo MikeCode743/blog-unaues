@@ -1,10 +1,9 @@
 export const bannerText = {
-  title: "Taller 1 -  Saneamiento Básico y Medidas Sanitarias",
-  description:
-    "Mejorar el conocimiento sobre los componentes básicos del saneamiento y la necesidad de implementar medidas sanitarias.",
-  fecha: "12 de Agosto 2021",
+  title: "Taller 2 -  Lecciones aprendidas en educación ambiental ",
+  description: "",
+  fecha: "19 de Agosto 2021",
   hora: "8:30 am a 4:00 pm ",
-  image: "https://source.unsplash.com/WIYtZU3PxsI/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
+  image: "https://source.unsplash.com/x8ZStukS2PM/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
   imgText: "main image description",
 };
 
@@ -20,17 +19,17 @@ export const bannerButtons = [
   {
     id: 2, //Formulario de asistencia
     text: "Asistencia",
-    link: "https://forms.gle/eaJQZ62eoKrtJUKSA",
+    link: "https://forms.gle/LChf9P2qyGDcDwpp6",
     color: "secondary",
     icon: "how_to_reg",
     disabled: false,
   },
-  {
-    id: 3, //Formulario para entregas de tareas
-    text: "Entregar Tarea",
-    link: "https://forms.gle/dtiNjbjEW9RJh6aV7",
-    color: "default",
-    icon: "task",
-    disabled: false,
-  },
+  // {
+  //   id: 3, //Formulario para entregas de tareas
+  //   text: "Entregar Tarea",
+  //   link: "https://forms.gle/dtiNjbjEW9RJh6aV7",
+  //   color: "default",
+  //   icon: "task",
+  //   disabled: false,
+  // },
 ];
