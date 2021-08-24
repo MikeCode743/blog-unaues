@@ -9,7 +9,9 @@ import {
 
 import { data } from "../data/navbar";
 
-export default function Navbar() {
+export default function Navbar(props) {
+  const { seeList } = props;
+
   return (
     <AppBar position="static">
       <Toolbar style={{ background: "#63A64D" }}>
@@ -29,10 +31,19 @@ export default function Navbar() {
                 startIcon={<Icon>{b.icon}</Icon>}
                 color={b.color}
                 href={b.link}
+                // onClick={}
               >
                 {b.text}
               </Button>
             ))}
+            <Button
+              startIcon={<Icon>checklist_rtl</Icon>}
+              color="inherit"
+              // href={b.link}
+              onClick={seeList}
+            >
+              Listado Oficial
+            </Button>
           </Grid>
         </Grid>
       </Toolbar>

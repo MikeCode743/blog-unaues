@@ -1,4 +1,4 @@
-const listadoOficial = [
+export const listadoOficial = [
   {
     institucion: "Universidad Dr. José Matías Delgado",
     nombre: "Adriana Del Carme Ramírez Martínez",
