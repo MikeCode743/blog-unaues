@@ -5,6 +5,8 @@ import Banner from "../components/Banner";
 import Card from "../components/Card";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import List from "../components/List";
 
 import { nameTitle, subTitle } from "../data/title";
 import { bannerText, bannerButtons } from "../data/banner";
@@ -12,8 +14,6 @@ import { events } from "../data/events";
 
 import { ThemeProvider } from "@material-ui/styles";
 import { createTheme } from "@material-ui/core/styles";
-import Navbar from "../components/Navbar";
-import List from "../components/List";
 
 export default function Home() {
   const theme = createTheme({
