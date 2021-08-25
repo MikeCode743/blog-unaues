@@ -15,9 +15,6 @@ const useStyles = makeStyles({
   cardDetails: {
     flex: 1,
   },
-  cardMedia: {
-    width: 160,
-  },
 });
 
 export default function FeaturedPost(props) {
@@ -26,26 +23,34 @@ export default function FeaturedPost(props) {
 
   return (
     <Grid item xs={12} md={12}>
-      <Card className={classes.card}>
+      <Card className={classes.card} variant="outlined">
         <div className={classes.cardDetails}>
           <CardContent>
             <Typography component="h5" variant="h5">
               {post.title}
             </Typography>
-            <Typography variant="subtitle1" color="textSecondary">
+            <Typography component="h6">{post.subtitle}</Typography>
+            <Typography variant="subtitle1">{post.description}</Typography>
+            {post.list && (
+              <ul>
+                <Typography variant="subtitle1">
+                  {post.list.map((element) => (
+                    <li key={element}>{element}</li>
+                  ))}
+                </Typography>
+              </ul>
+            )}
+            <Typography variant="subtitle2" color="textSecondary">
               {post.date}
-            </Typography>
-            <Typography variant="subtitle1" paragraph>
-              {post.description}
             </Typography>
           </CardContent>
           {post.buttons && (
-            <Grid container direction="row" justifyContent="flex-end">
+            <Grid container direction="row" justifyContent="space-evenly">
               <CardActions>
                 {post.buttons.map((b) => (
                   <Button
                     key={b.text}
-                    size="small"
+                    size={b.size}
                     variant="contained"
                     href={b.link}
                     color={b.color}

@@ -1,33 +1,47 @@
 export const events = [
   {
-    title: "Registro de participantes",
-    date: "",
-    description:
-      "La Unidad Ambiental de la Universidad de El Salvador (UNAUES), invita a los participantes a este proyecto que es auspiciado por la UNESCO, a registrarse en el siguiente Formulario. ",
+    title: "Entrega de SEGUNDA TAREA EX-AULA",
+    subtitle:
+      'Tema: "Sensibilización para minimizar la contaminación de nuestros residuos solidos Municipales al medio ambiente"',
+    date: "Fecha Maxima: Martes 31 de agosto de 2021, hasta las 23:59",
+    description: "Contenido del documento",
+    list: [
+      "Caratula",
+      "Introducción",
+      "Objetivos",
+      "Metodología",
+      "Resultados ",
+      "Conclusiones",
+      "Limitantes y apoyos",
+      "Fotografías",
+    ],
     image: "",
     imageText: "Image Text",
     buttons: [
       {
-        text: "Registrarse",
+        text: "Entregar Tarea",
         color: "secondary",
-        icon: "person_add_alt_1",
-        link: "https://forms.gle/WczrmdCth2E9hhf79",
+        icon: "file_upload",
+        link: "https://forms.gle/ApUfUNueeVtzsFov5",
+        size: "",
       },
     ],
   },
-  {
-    title: "¡Revisa que estes en el listado oficial!",
-    description:
-      "Para nosotros es muy importante que tu nombre e institucion que pertences este correctamente, si algo esta mal no dudes en comunicarselo al personal de soporte.",
-    image: "",
-    imageText: "",
-    buttons: [
-      {
-        text: "Listado Oficial",
-        color: "secondary",
-        icon: "checklist_rtl",
-        link: "/listadooficial",
-      },
-    ],
-  },
+  //{
+  // title: "¡Revisa que estes en el listado oficial!",
+  // description:
+  //   "Para nosotros es muy importante que tu nombre e institucion que pertences este correctamente, si algo esta mal no dudes en comunicarselo al personal de soporte.",
+  // image: "",
+  // imageText: "",
+  // buttons: [
+  //   {
+  //     text: "Listado Oficial",
+  //     color: "secondary",
+  //     icon: "checklist_rtl",
+  //     link: "",
+  //     function: true,
+  //     size: "small",
+  //   },
+  // ],
+  //},
 ];

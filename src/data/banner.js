@@ -1,9 +1,10 @@
 export const bannerText = {
-  title: "Taller 2 -  Lecciones aprendidas en educación ambiental ",
-  description: "",
-  fecha: "19 de Agosto 2021",
+  title: "TALLER 3 -  TALLER DE MITIGACIÓN Y ADAPTACIÓN AL CAMBIO CLIMATICO ",
+  description:
+    "Taller enfocado en el marco de la pandemia del COVID-19 y las emergencias por fenomenos Hídrometereologico",
+  fecha: "Jueves 2 de Septiembre 2021",
   hora: "8:30 am a 4:00 pm ",
-  image: "https://source.unsplash.com/x8ZStukS2PM/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
+  image: "https://source.unsplash.com/vouoK_daWL8/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
   imgText: "main image description",
 };
 
@@ -19,7 +20,7 @@ export const bannerButtons = [
   {
     id: 2, //Formulario de asistencia
     text: "Asistencia",
-    link: "https://forms.gle/LChf9P2qyGDcDwpp6",
+    link: "https://forms.gle/CMN4E6dTfQjx853b9",
     color: "secondary",
     icon: "how_to_reg",
     disabled: false,
