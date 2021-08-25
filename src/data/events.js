@@ -23,7 +23,6 @@ export const events = [
         color: "secondary",
         icon: "file_upload",
         link: "https://forms.gle/ApUfUNueeVtzsFov5",
-        size: "",
       },
     ],
   },

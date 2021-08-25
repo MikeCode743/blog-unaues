@@ -50,7 +50,6 @@ export default function FeaturedPost(props) {
                 {post.buttons.map((b) => (
                   <Button
                     key={b.text}
-                    size={b.size}
                     variant="contained"
                     href={b.link}
                     color={b.color}
