@@ -99,14 +99,14 @@ export default function DenseTable(props) {
               <Icon color="error">error</Icon>
             </Avatar>
           }
-          label="Sin correo de contacto"
+          label="Datos Incompletos"
           variant="outlined"
         />
       </Grid>
 
-      <Grid item>
+      <Grid item xs={12}>
         <TableContainer component={Paper}>
-          <Table size="small">
+          <Table width="100%" size="small">
             <TableHead>
               <TableRow>
                 <TableCell>Nombre</TableCell>
@@ -139,7 +139,9 @@ export default function DenseTable(props) {
                       }
                       aria-label="add"
                     >
-                      {item.correo ? (
+                      {item.nombre.split(" ").length > 2 &&
+                      item.institucion &&
+                      item.correo ? (
                         <Icon color="secondary">verified</Icon>
                       ) : (
                         <Icon color="error">error</Icon>
