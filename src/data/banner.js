@@ -1,10 +1,9 @@
 export const bannerText = {
-  title: "TALLER 3 -  TALLER DE MITIGACIÓN Y ADAPTACIÓN AL CAMBIO CLIMATICO ",
-  description:
-    "Taller enfocado en el marco de la pandemia del COVID-19 y las emergencias por fenomenos Hídrometereologico",
-  fecha: "Jueves 2 de Septiembre 2021",
-  hora: "8:30 am a 4:00 pm ",
-  image: "https://source.unsplash.com/vouoK_daWL8/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
+  title: "TALLER 4 - PAPEL DE LAS UNIDADES AMBIENTALES ",
+  description: "Taller enfocado en la formacion de Líderes Ambientalistas",
+  fecha: "Jueves 16 de Septiembre 2021",
+  hora: "8:00 am a 4:00 pm ",
+  image: "https://source.unsplash.com/vpxeE7s-my4/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
   imgText: "main image description",
 };
 
@@ -20,7 +19,7 @@ export const bannerButtons = [
   {
     id: 2, //Formulario de asistencia
     text: "Asistencia",
-    link: "https://forms.gle/CMN4E6dTfQjx853b9",
+    link: "https://forms.gle/tUUDcK9gVXzJn65G7",
     color: "secondary",
     icon: "how_to_reg",
     disabled: false,

@@ -78,7 +78,7 @@ export default function Banner(props) {
                     startIcon={<Icon>{b.icon}</Icon>}
                     variant="contained"
                     color={b.color}
-                    href={b.link}
+                    onClick={() => window.open(b.link, "_blank")}
                     disabled={b.disabled}
                   >
                     {b.text}

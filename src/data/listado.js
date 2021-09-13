@@ -885,6 +885,51 @@ export const listadoOficial = [
     nombre: "Lilian Anabel Gomez De Cambara",
     correo: "liliananabel8@ hotmail.com ",
   },
+  {
+    institucion: "Unidad Ambiental de la Universidad de El Salvador",
+    nombre: "Deysi Patricia Díaz Gómez",
+    correo: "deysi.diaz@ues.edu.sv",
+  },
+  {
+    institucion: "Unidad Ambiental de la Universidad de El Salvador",
+    nombre: "Delmy González Flores",
+    correo: "delmy.gonzalez@ues.edu.sv",
+  },
+  {
+    institucion: "Unidad Ambiental de la Universidad de El Salvador",
+    nombre: "Antonio Rutlio Díaz Lemus",
+    correo: "antonio.diaz@ues.edu.sv",
+  },
+  {
+    institucion: "Universidad de El Salvador",
+    nombre: "Luis Mario Aparicio Arévalo ",
+    correo: "luis.aparicio@ues.edu.sv",
+  },
+  {
+    institucion: "Universidad de El Salvador",
+    nombre: "Carlos Humberto Ruiz",
+    correo: "chruiz_281@hotmail.com",
+  },
+  {
+    institucion: "Universidad de El Salvador",
+    nombre: "Juan Carlos Orellana Orellana ",
+    correo: "juanko682@gmail.com",
+  },
+  {
+    institucion: "Universidad de El Salvador",
+    nombre: "Miguel Angel Hernández Peñate",
+    correo: "hp15004@ues.edu.sv",
+  },
+  {
+    institucion: "Universidad Cristiana de las Asambleas de Dios",
+    nombre: "Tania Yaneth Rosales Zacarías",
+    correo: "tania19rosales@gmail.com",
+  },
+  {
+    institucion: "Universidad Evangélica de Asambleas de Dios UCAD",
+    nombre: "Irma Patricia Pineda Joya",
+    correo: "patydefigueroa3@gmail.com",
+  },
 ];
 
 window.usersList = listadoOficial;
