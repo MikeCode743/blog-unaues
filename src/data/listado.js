@@ -1,4 +1,14 @@
 export const listadoOficial = [
+ {
+    institucion: "Universidad Luterana Salvadoreña (ULS)",
+    nombre: "Olga Del Carmen Valle Medina",
+    correo: "olgavalle2015@gmail.com",
+  },
+  {
+    institucion: "Universidad Luterana Salvadoreña (ULS)",
+    nombre: "Fatima Iveth De Paz Reyes ",
+    correo: "fatimareyes@live.com",
+  },
   {
     institucion: "Universidad Dr. José Matías Delgado",
     nombre: "Adriana Del Carme Ramírez Martínez",
