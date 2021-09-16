@@ -143,7 +143,7 @@ export const listadoOficial = [
   {
     institucion: "Instituto Especializado de Educación Superior Espíritu Santo",
     nombre: "Adriana Estela Acosta Ortíz",
-    correo: "",
+    correo: "ao-6145-19@ieeses.edu.sv",
   },
   {
     institucion: "Instituto Especializado de Educación Superior Espíritu Santo",
