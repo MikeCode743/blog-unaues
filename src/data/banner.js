@@ -24,12 +24,12 @@ export const bannerButtons = [
     icon: "how_to_reg",
     disabled: false,
   },
-  // {
-  //   id: 3, //Formulario para entregas de tareas
-  //   text: "Entregar Tarea",
-  //   link: "https://forms.gle/dtiNjbjEW9RJh6aV7",
-  //   color: "default",
-  //   icon: "task",
-  //   disabled: false,
-  // },
+  {
+     id: 3, //Formulario para entregas de tareas
+     text: "Entregar Tarea",
+     link: "https://forms.gle/PUkcd41tgR92nkRr6",
+     color: "default",
+     icon: "task",
+     disabled: false,
+  },
 ];
