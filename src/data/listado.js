@@ -1,5 +1,7 @@
+export const lastUpdate = "16/09/2021";
+
 export const listadoOficial = [
- {
+  {
     institucion: "Universidad Luterana Salvadoreña (ULS)",
     nombre: "Olga Del Carmen Valle Medina",
     correo: "olgavalle2015@gmail.com",

@@ -22,7 +22,7 @@ export default function FeaturedPost(props) {
   const { post } = props;
 
   return (
-    <Grid item xs={12} md={12}>
+    <Grid item xs={12} md={6}>
       <Card className={classes.card} variant="outlined">
         <div className={classes.cardDetails}>
           <CardContent>
@@ -45,13 +45,13 @@ export default function FeaturedPost(props) {
             </Typography>
           </CardContent>
           {post.buttons && (
-            <Grid container direction="row" justifyContent="space-evenly">
+            <Grid container direction="row" justifyContent="center">
               <CardActions>
                 {post.buttons.map((b) => (
                   <Button
                     key={b.text}
                     variant="contained"
-                    href={b.link}
+                    onClick={() => window.open(b.link, "_blank")}
                     color={b.color}
                     startIcon={<Icon>{b.icon}</Icon>}
                   >

@@ -7,6 +7,7 @@ import Title from "../components/Title";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import List from "../components/List";
+import Tour from "../components/Tour";
 
 import { nameTitle, subTitle } from "../data/title";
 import { bannerText, bannerButtons } from "../data/banner";
@@ -31,19 +32,39 @@ export default function Home() {
     },
   });
 
-  const [seelist, setSeeList] = useState(false);
+  const [seeList, setSeeList] = useState(false);
 
   const handleSeeList = () => {
-    setSeeList((prevState) => !prevState);
+    if (!seeListTour) {
+      setSeeList((prevState) => !prevState);
+    } else {
+      // Para ocultar listado de gira
+      setSeeList((prevState) => !prevState);
+      setSeeListTour((prevState) => !prevState);
+    }
+  };
+
+  const [seeListTour, setSeeListTour] = useState(false);
+  const handleSeeListTour = () => {
+    if (!seeList) {
+      setSeeListTour((prevState) => !prevState);
+    } else {
+      // Para ocultar listado oficial
+      setSeeList((prevState) => !prevState);
+      setSeeListTour((prevState) => !prevState);
+    }
   };
 
   return (
     <div>
-      <Navbar seeList={handleSeeList} />
+      <Navbar seeList={handleSeeList} seeListTour={handleSeeListTour} />
       <Container style={{ padding: 20 }}>
         <ThemeProvider theme={theme}>
-          {seelist ? (
-            <List seeList={handleSeeList} />
+          {seeList || seeListTour ? (
+            <>
+              {seeList && <List seeList={handleSeeList} />}
+              {seeListTour && <Tour seeListTour={handleSeeListTour} />}
+            </>
           ) : (
             <>
               <Title title={nameTitle} subTitle={subTitle} />
@@ -61,6 +82,7 @@ export default function Home() {
               </Grid>
             </>
           )}
+
           <Footer />
         </ThemeProvider>
       </Container>

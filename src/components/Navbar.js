@@ -10,7 +10,7 @@ import {
 import { data } from "../data/navbar";
 
 export default function Navbar(props) {
-  const { seeList } = props;
+  const { seeList, seeListTour } = props;
 
   return (
     <AppBar position="static">
@@ -43,6 +43,14 @@ export default function Navbar(props) {
               onClick={seeList}
             >
               Listado Oficial
+            </Button>
+            <Button
+              startIcon={<Icon>where_to_vote</Icon>}
+              color="inherit"
+              // href={b.link}
+              onClick={seeListTour}
+            >
+              Gira de Campo
             </Button>
           </Grid>
         </Grid>

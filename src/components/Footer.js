@@ -26,6 +26,17 @@ function Soporte() {
       <Button href={"mailto:oo15004@ues.edu.sv"} startIcon={<Icon>email</Icon>}>
         oo15004@ues.edu.sv
       </Button>
+      <Button
+        onClick={() =>
+          window.open(
+            "https://api.whatsapp.com/send/?phone=%2B50372199654&text&app_absent=0",
+            "_blank"
+          )
+        }
+        startIcon={<Icon>whatsapp</Icon>}
+      >
+        Whatsapp Soporte
+      </Button>
     </>
   );
 }

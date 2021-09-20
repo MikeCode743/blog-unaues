@@ -6,7 +6,7 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
-import { listadoOficial } from "../data/listado";
+import { listadoOficial, lastUpdate } from "../data/listado";
 import {
   Avatar,
   Button,
@@ -23,6 +23,7 @@ import {
 export default function DenseTable(props) {
   const { seeList } = props;
 
+  //Metodo para filtrar
   const [keyword, setKeyword] = useState();
   const filteredParticipants = useMemo(() => {
     if (!keyword) {
@@ -101,6 +102,13 @@ export default function DenseTable(props) {
           }
           label="Datos Incompletos"
           variant="outlined"
+        />
+      </Grid>
+      <Grid item>
+        <Chip
+          variant="outlined"
+          color="info"
+          label={"Actualizado por ultima vez: " + lastUpdate}
         />
       </Grid>
 
