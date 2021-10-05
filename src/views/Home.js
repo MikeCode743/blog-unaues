@@ -1,13 +1,14 @@
-import { Container, Grid, Paper } from "@material-ui/core";
+import { Card, CardContent, Container, Grid, Paper } from "@material-ui/core";
 import React, { useState } from "react";
 
 import Banner from "../components/Banner";
-import Card from "../components/Card";
+import Cards from "../components/Card";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import List from "../components/List";
 import Tour from "../components/Tour";
+import Search from "../components/Assistance";
 
 import { nameTitle, subTitle } from "../data/title";
 import { bannerText, bannerButtons } from "../data/banner";
@@ -75,9 +76,25 @@ export default function Home() {
                   </Paper>
                 </Grid>
               </Grid>
+              <Grid
+                container
+                cdirection="row"
+                justifyContent="center"
+                alignItems="center"
+                spacing={2}
+              >
+                <Grid item xs={12}>
+                  <Card variant="outlined">
+                    <CardContent>
+                      <Search />
+                    </CardContent>
+                  </Card>
+                </Grid>
+              </Grid>
+
               <Grid container spacing={4}>
                 {events.map((post) => (
-                  <Card key={post.title} post={post} />
+                  <Cards key={post.title} post={post} />
                 ))}
               </Grid>
             </>

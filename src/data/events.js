@@ -26,7 +26,7 @@ export const events = [
     buttons: [
       {
         text: "Grupo de Whatsapp",
-        color: "",
+        color: "default",
         icon: "whatsapp",
         link: "https://chat.whatsapp.com/GlruOUHqhMc6SX09sUHa9U",
         // size: "small",

@@ -3,14 +3,14 @@ export const lastUpdate = "05/10/2021";
 export const listSites = [
   { site: "Todos", date: "" },
 
-  { site: "Reserva de Biósfera Apaneca-Ilamatepec", date: 11 - 11 - 2021 },
+  { site: "Reserva de Biósfera Apaneca-Ilamatepec", date: "11/11/2021" },
   {
     site: "Reserva de Biosfera Trifinio - Fraternidad, Cárcava La Zompopera.",
-    date: 25 - 11 - 2021,
+    date: "25/11/2021",
   },
   {
     site: "Reserva de la Biósfera Xiriualtique, Bahía de Jiquilisco",
-    date: 18 - 11 - 2021,
+    date: "18/11/2021",
   },
 ];
 

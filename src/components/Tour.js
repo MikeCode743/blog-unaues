@@ -81,7 +81,6 @@ export default function DenseTable(props) {
       >
         <Chip
           variant="outlined"
-          color="info"
           label={"Actualizado por ultima vez: " + lastUpdate}
         />
       </Grid>
