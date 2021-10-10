@@ -117,6 +117,7 @@ export default function DenseTable(props) {
           <Table width="100%" size="small">
             <TableHead>
               <TableRow>
+                <TableCell>No.</TableCell>
                 <TableCell>Nombre</TableCell>
                 <Hidden xsDown>
                   <TableCell align="right">Institucion</TableCell>
@@ -128,8 +129,11 @@ export default function DenseTable(props) {
               </TableRow>
             </TableHead>
             <TableBody>
-              {filteredParticipants.map((item) => (
-                <TableRow key={item.nombre}>
+              {filteredParticipants.map((item, index) => (
+                <TableRow>
+                  <TableCell component="th" scope="row">
+                    {index + 1}
+                  </TableCell>
                   <TableCell component="th" scope="row">
                     {item.nombre}
                   </TableCell>
@@ -143,7 +147,9 @@ export default function DenseTable(props) {
                   <TableCell align="right">
                     <Tooltip
                       title={
-                        item.correo ? "Registrado" : "Necesitamos el correo"
+                        item.correo && item.nombre.split(" ").length > 2
+                          ? "Registrado"
+                          : "Informacion incompleta"
                       }
                       aria-label="add"
                     >

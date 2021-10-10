@@ -31,10 +31,42 @@ export default function SearchAssistance() {
       </Box>
       <Box sx={{ display: "grid", gridTemplateRows: "repeat(3, 1fr)" }}>
         <Typography>{inputValue && `Buscar: ${inputValue}`}</Typography>
-        <Typography>
-          {value &&
-            `Porcentaje de asistencia hasta el momento: ${participant["porcentaje"]}`}
-        </Typography>
+        {value && (
+          <>
+            <Typography>Eventos:</Typography>
+            {participant["inauguración"] && (
+              <Typography>
+                Inauguracion: {participant["inauguración"]}
+              </Typography>
+            )}
+            {participant["taller1"] && (
+              <Typography>Taller 1: {participant["taller1"]} </Typography>
+            )}
+            {participant["taller2"] && (
+              <Typography>Taller 2: {participant["taller2"]}</Typography>
+            )}
+            {participant["taller3"] && (
+              <Typography>Taller 3: {participant["taller3"]}</Typography>
+            )}
+            {participant["taller4"] && (
+              <Typography>Taller 4: {participant["taller4"]}</Typography>
+            )}
+            {participant["taller5"] && (
+              <Typography>Taller 5: {participant["taller5"]}</Typography>
+            )}
+            {participant["taller5"] && (
+              <Typography>Taller 6: {participant["taller6"]}</Typography>
+            )}
+            {participant["taller6"] && (
+              <Typography>Taller 7: {participant["taller7"]}</Typography>
+            )}
+
+            <Typography>
+              Porcentaje de asistencia hasta el momento:
+              {participant["porcentaje"]}
+            </Typography>
+          </>
+        )}
       </Box>
 
       <Autocomplete
