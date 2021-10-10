@@ -1,4 +1,4 @@
-export const lastUpdate = "05/10/2021";
+export const lastUpdate = "9/10/2021";
 
 export const listSites = [
   { site: "Todos", date: "" },
@@ -149,6 +149,12 @@ export const listTour = [
     nombre: "Jeffry Israrl Giron Arias",
     institucion: "Universidad de El Salvador (UES)",
     lugar: "Reserva de Biosfera Trifinio - Fraternidad, Cárcava La Zompopera.",
+  },
+  {
+    nombre: "Jenny Carolina Morales Santamaria",
+    institucion: "Universidad Politécnica de El Salvador (UPES)",
+    lugar:
+      "Reserva de la Biósfera Xiriualtique, Bahía de Jiquilisco (18/11/2021)",
   },
   {
     nombre: "Jessica Carolina González Palacios",
@@ -324,6 +330,11 @@ export const listTour = [
     nombre: "Rafael Antonio Urrutia Quinteros ",
     institucion: "Universidad Politécnica de El Salvador (UPES)",
     lugar: "Reserva de Biósfera Apaneca-Ilamatepec.",
+  },
+  {
+    nombre: "Rocio Alejandra Palacios Vicente",
+    institucion: "Universidad de El Salvador (UES)",
+    lugar: "Reserva de Biosfera Trifinio - Fraternidad, Cárcava La Zompopera.",
   },
   {
     nombre: "Rosa Alvarenga Quijada ",
