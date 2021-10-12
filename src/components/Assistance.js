@@ -18,7 +18,7 @@ export default function SearchAssistance() {
     link: "https://forms.gle/ikFs9K5KFK9cfTKR7",
     icon: "report_gmailerrorred",
     color: "primary",
-    text: "reportar",
+    text: "Solicitar revisión de asistencia",
   };
 
   return (
