@@ -3,6 +3,7 @@ import Autocomplete from "@mui/material/Autocomplete";
 import { Chip, TextField, Typography } from "@material-ui/core";
 import { lastUpdate, list } from "../data/assitance";
 import { Box } from "@mui/system";
+import { Button, Icon } from "@mui/material";
 
 export default function SearchAssistance() {
   const [value, setValue] = useState();
@@ -13,6 +14,12 @@ export default function SearchAssistance() {
     const found = list.find((element) => element.nombre === newValue);
     setParticipant(found);
   };
+  const formReport = {
+    link: "https://forms.gle/ikFs9K5KFK9cfTKR7",
+    icon: "report_gmailerrorred",
+    color: "primary",
+    text: "reportar",
+  };
 
   return (
     <div>
@@ -22,11 +29,15 @@ export default function SearchAssistance() {
             Comprobar asistencia
           </Typography>
         </Box>
-        <Box sx={{ p: 1, bgcolor: "grey.300" }}>
-          <Chip
-            variant="outlined"
-            label={"Actualizado por ultima vez: " + lastUpdate}
-          />
+        <Box sx={{ justifyContent: "flex-end", mx: 2 }}>
+          <Button
+            startIcon={<Icon>{formReport.icon}</Icon>}
+            variant="contained"
+            color={formReport.color}
+            onClick={() => window.open(formReport.link, "_blank")}
+          >
+            {formReport.text}
+          </Button>
         </Box>
       </Box>
       <Box mb={2} sx={{ display: "grid", gridTemplateRows: "repeat(3, 1fr)" }}>
@@ -49,7 +60,6 @@ export default function SearchAssistance() {
           </>
         )}
       </Box>
-
       <Autocomplete
         value={value || null}
         onChange={(_, newValue) => {
@@ -70,6 +80,12 @@ export default function SearchAssistance() {
           />
         )}
       />
+      <Box sx={{ display: "flex", mt: 2, justifyContent: "flex-end", mx: 2 }}>
+        <Chip
+          variant="outlined"
+          label={"Actualizado por ultima vez: " + lastUpdate}
+        />
+      </Box>
     </div>
   );
 }
