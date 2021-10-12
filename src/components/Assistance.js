@@ -53,9 +53,8 @@ export default function SearchAssistance() {
             <Typography>
               Cantidad de eventos asistidos: {participant["contador"]}
             </Typography>
-            <Typography>
-              Porcentaje de asistencia hasta el momento: %
-              {participant["porcentaje"]}
+            <Typography>           
+              {`Porcentaje de asistencia: ${participant.porcentaje}%`}
             </Typography>
           </>
         )}
