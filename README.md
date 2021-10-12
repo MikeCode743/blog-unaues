@@ -1,2 +1,2 @@
 # Deploy - Netliify
-[Enlace](https://congresounaues.live/)
+[Visitar sitio](https://congresounaues.live/)
