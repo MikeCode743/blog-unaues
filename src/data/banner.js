@@ -1,10 +1,10 @@
 export const bannerText = {
-  title: "TALLER 6 - RESERVAS DE BIOSFERA Y AREAS NATURALES",
+  title: "Taller 7 - Plan Nacional de Educación Ambiental",
   description:
-    "Taller enfocado en concientizar sobre la importancia de las reservas de la biosfera y las areas naturales",
-  fecha: "Jueves 21 de Octubre 2021",
+    "Taller enfocado en enfatizar en la proteccion de grupos vulnerables",
+  fecha: "Jueves 4 de noviembre 2021",
   hora: "8:00 am a 4:00 pm ",
-  image: "https://source.unsplash.com/bMhWy296Ao0/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
+  image: "https://source.unsplash.com/6jYoil2GhVk/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
   imgText: "main image description",
 };
 
@@ -20,7 +20,7 @@ export const bannerButtons = [
   {
     id: 2, //Formulario de asistencia
     text: "Asistencia",
-    link: "https://forms.gle/3thBG93wvn5gcSAD7",
+    link: "https://forms.gle/UpS3GVSobnUbvshX9",
     color: "secondary",
     icon: "how_to_reg",
     disabled: false,
