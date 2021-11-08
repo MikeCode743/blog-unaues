@@ -18,22 +18,22 @@ export const events = [
   //   ],
   // },
 
-  {
-    title: "¡Necesitamos tu opinion de nuestro proyecto!",
-    description:
-      "Para nosotros es muy importante saber que opinas sobre lo desarrollado en los talleres realizados, por eso necesitamos tu apoyo en responder el siguiente formulario",
-    image: "",
-    imageText: "",
-    buttons: [
-      {
-        text: "Formulario",
-        color: "Primary",
-        icon: "quiz",
-        link: "https://forms.gle/kfXyucN1B3y2Gewi8",
-        // size: "small",
-      },
-    ],
-  },
+  // {
+  //   title: "¡Necesitamos tu opinion de nuestro proyecto!",
+  //   description:
+  //     "Para nosotros es muy importante saber que opinas sobre lo desarrollado en los talleres realizados, por eso necesitamos tu apoyo en responder el siguiente formulario",
+  //   image: "",
+  //   imageText: "",
+  //   buttons: [
+  //     {
+  //       text: "Formulario",
+  //       color: "Primary",
+  //       icon: "quiz",
+  //       link: "https://forms.gle/kfXyucN1B3y2Gewi8",
+  //       // size: "small",
+  //     },
+  //   ],
+  // },
   {
     title: "¡Ingresa Nuestro Grupo de Whatsapp!",
     description:
