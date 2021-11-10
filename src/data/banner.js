@@ -1,10 +1,11 @@
 export const bannerText = {
   title: "Proximas Giras de Campo",
   description: "Reserva de Apaneca",
-  fecha: "Jueves 11 de noviembre 2021",
-  hora: "8:00 am a 4:00 pm ",
-  // image: "https://i.ytimg.com/vi/TWuLUBFEGwg/maxresdefault.jpg",
-  image: "https://source.unsplash.com/bMhWy296Ao0/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
+  fecha: "HASTA NUEVO AVISO",
+  hora: "PEDIDOS DISCULPA POR LOS INCONVENIENTES",
+  image: "https://i.ibb.co/wQT6YB6/descarga.png",
+
+  // image: "https://source.unsplash.com/bMhWy296Ao0/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
   imgText: "main image description",
 };
 
