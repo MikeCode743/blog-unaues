@@ -14,11 +14,11 @@ export const data = {
     //   icon: "checklist_rtl",
     //   link: "",
     // },
-    {
-      text: "Registrarse",
-      color: "inherit",
-      icon: "person_add_alt_1",
-      link: "https://forms.gle/WczrmdCth2E9hhf79",
-    },
+    // {
+    //   text: "Registrarse",
+    //   color: "inherit",
+    //   icon: "person_add_alt_1",
+    //   link: "https://forms.gle/WczrmdCth2E9hhf79",
+    // },
   ],
 };

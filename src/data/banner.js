@@ -1,10 +1,11 @@
 export const bannerText = {
   title: "Proximas Giras de Campo",
-  description: "Reserva de Apaneca",
-  fecha: "HASTA NUEVO AVISO",
-  hora: "PEDIDOS DISCULPA POR LOS INCONVENIENTES",
-  image: "https://i.ibb.co/wQT6YB6/descarga.png",
-
+  description:
+    "Reserva de Apaneca, Reservas Bahia de Jiquilisco y Reversa Trinifinio",
+  fecha: "Jueves 25 de Noviembre de 2021",
+  hora: "6:00 am, Frente a la Libreria Universitaria (UES)",
+  image:
+    "https://scontent.fsal3-1.fna.fbcdn.net/v/t31.18172-8/1398859_688813101204747_3797648562468825389_o.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=zGUz5kYzxGkAX-UIfrt&_nc_ht=scontent.fsal3-1.fna&oh=2051f1aacce349aaf45f340889b2bd1b&oe=61B4BBFA",
   // image: "https://source.unsplash.com/bMhWy296Ao0/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
   imgText: "main image description",
 };
@@ -18,14 +19,14 @@ export const bannerButtons = [
   //   icon: "groups",
   //   disabled: false,
   // },
-  // {
-  //   id: 2, //Formulario de asistencia
-  //   text: "Asistencia",
-  //   link: "https://forms.gle/UpS3GVSobnUbvshX9",
-  //   color: "secondary",
-  //   icon: "how_to_reg",
-  //   disabled: false,
-  // },
+  {
+    id: 2, //Formulario de asistencia
+    text: "Ubicacion",
+    link: "https://goo.gl/maps/znGp3c7SBkwgeX2H7",
+    color: "primary",
+    icon: "location_on",
+    disabled: false,
+  },
   // {
   // id: 3, //Formulario para entregas de tareas
   // text: "Entregar Tarea",

@@ -10,7 +10,7 @@ import {
 import { data } from "../data/navbar";
 
 export default function Navbar(props) {
-  const { seeList, seeListTour } = props;
+  // const { seeList, seeListTour } = props;
 
   return (
     <AppBar position="static">
@@ -36,7 +36,7 @@ export default function Navbar(props) {
                 {b.text}
               </Button>
             ))}
-            <Button
+            {/* <Button
               startIcon={<Icon>checklist_rtl</Icon>}
               color="inherit"
               // href={b.link}
@@ -51,7 +51,7 @@ export default function Navbar(props) {
               onClick={seeListTour}
             >
               Gira de Campo
-            </Button>
+            </Button> */}
           </Grid>
         </Grid>
       </Toolbar>
