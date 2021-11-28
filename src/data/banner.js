@@ -1,7 +1,7 @@
 export const bannerText = {
   title: "Evento de Cierre",
   description:
-    "Presencial - Sede Central de la Universidad de El Salvador (UES)",
+    "Presencial - Campus Central de la Universidad de El Salvador (UES)",
   fecha: "Jueves 02 de Diciembre de 2021",
   hora: "8:00 am a 12:00 md",
   image:
