@@ -1,9 +1,9 @@
 export const bannerText = {
-  title: "Proximas Giras de Campo",
+  title: "Evento de Cierre",
   description:
-    "Reserva de Apaneca, Reservas Bahia de Jiquilisco y Reversa Trinifinio",
-  fecha: "Jueves 25 de Noviembre de 2021",
-  hora: "6:00 am, Frente al Edificio de Escuela de Arte (UES)",
+    "Presencial - Sede Central de la Universidad de El Salvador (UES)",
+  fecha: "Jueves 02 de Diciembre de 2021",
+  hora: "8:00 am a 12:00 md",
   image:
     "https://upload.wikimedia.org/wikipedia/commons/c/ce/Escuela_de_Arte_y_Cultura%2C_Facultad_de_Ciencias_y_Humanidades_%28UES%29.jpg",
   // image: "https://source.unsplash.com/bMhWy296Ao0/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}

@@ -18,22 +18,23 @@ export const events = [
   //   ],
   // },
 
-  // {
-  //   title: "¡Necesitamos tu opinion de nuestro proyecto!",
-  //   description:
-  //     "Para nosotros es muy importante saber que opinas sobre lo desarrollado en los talleres realizados, por eso necesitamos tu apoyo en responder el siguiente formulario",
-  //   image: "",
-  //   imageText: "",
-  //   buttons: [
-  //     {
-  //       text: "Formulario",
-  //       color: "Primary",
-  //       icon: "quiz",
-  //       link: "https://forms.gle/kfXyucN1B3y2Gewi8",
-  //       // size: "small",
-  //     },
-  //   ],
-  // },
+  {
+    title:
+      "¡Necesitamos tu opinion sobre la propuesta de fechas de giras campos!",
+    description:
+      "Lamentamos la cancelación de las giras y los inconvenientes que esta le pudieran ocasionar. Para llevar a cabo las giras se pretende hacer la re programación de los eventos en la fecha del 10 de febrero del 2022, por favor completar el formulario las personas interesadas en asistir.",
+    image: "",
+    imageText: "",
+    buttons: [
+      {
+        text: "Formulario",
+        color: "Primary",
+        icon: "quiz",
+        link: "https://forms.gle/UfRn2j2h5mWJp3D8A",
+        // size: "small",
+      },
+    ],
+  },
   {
     title: "¡Ingresa Nuestro Grupo de Whatsapp!",
     description:
