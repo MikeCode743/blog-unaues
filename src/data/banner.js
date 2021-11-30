@@ -1,11 +1,10 @@
 export const bannerText = {
-  title: "Evento de Cierre",
+  title: "Evento de Cierre (Presencial)",
   description:
-    "Presencial - Campus Central de la Universidad de El Salvador (UES)",
+    "Cine Teatro - Campus Central de la Universidad de El Salvador (UES)",
   fecha: "Jueves 02 de Diciembre de 2021",
   hora: "8:00 am a 12:00 md",
-  image:
-    "https://upload.wikimedia.org/wikipedia/commons/c/ce/Escuela_de_Arte_y_Cultura%2C_Facultad_de_Ciencias_y_Humanidades_%28UES%29.jpg",
+  image: "https://mapio.net/images-p/47445051.jpg",
   // image: "https://source.unsplash.com/bMhWy296Ao0/2400x1600", // https://source.unsplash.com/{PHOTO ID}/{WIDTHxHEIGHT}
   imgText: "main image description",
 };
@@ -22,7 +21,7 @@ export const bannerButtons = [
   {
     id: 2, //Formulario de asistencia
     text: "Ubicacion",
-    link: "https://goo.gl/maps/De1Brjc7wPpWCB8DA",
+    link: "https://goo.gl/maps/6fS5TWW76iYV3rzp6",
     color: "primary",
     icon: "location_on",
     disabled: false,
